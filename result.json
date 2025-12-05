@@ -1,0 +1,388 @@
+{
+  "files": {
+    "pdf1": "sample_document_v1.pdf",
+    "pdf2": "sample_document_v2.pdf"
+  },
+  "timestamp": "2025-12-05T14:41:23.200525",
+  "methods_used": [
+    "text_comparison",
+    "structure_analysis",
+    "metadata_comparison"
+  ],
+  "results": {
+    "basic_info": {
+      "method": "basic_info",
+      "file_size": {
+        "pdf1": 2043,
+        "pdf2": 2215,
+        "identical": false
+      },
+      "page_count": {
+        "pdf1": 1,
+        "pdf2": 1,
+        "identical": true
+      }
+    },
+    "text_comparison": {
+      "method": "text_comparison",
+      "identical": false,
+      "similarity": 0.8315301391035549,
+      "statistics": {
+        "lines_added": 10,
+        "lines_removed": 5,
+        "total_changes": 15,
+        "char_count1": 545,
+        "char_count2": 749,
+        "line_count1": 16,
+        "line_count2": 21
+      },
+      "detailed_differences": [
+        {
+          "type": "removed",
+          "content": "Sample Document - Version 1",
+          "page": 1,
+          "line": 1,
+          "line_in_page": 0,
+          "file": "pdf1",
+          "context": {
+            "before": [],
+            "after": [
+              "This is a sample PDF document for testing comparison tools.",
+              "Contents:"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "content": "Sample Document - Version 2 (Updated)",
+          "page": 1,
+          "line": 1,
+          "line_in_page": 0,
+          "file": "pdf2",
+          "context": {
+            "before": [],
+            "after": [
+              "This is a sample PDF document for testing comparison tools.",
+              "Contents:"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "content": "5. New section added",
+          "page": 1,
+          "line": 8,
+          "line_in_page": 7,
+          "file": "pdf2",
+          "context": {
+            "before": [
+              "3. Formatting changes",
+              "4. Structural modifications"
+            ],
+            "after": [
+              "Introduction:",
+              "PDF comparison is essential for document version control and quality assurance."
+            ]
+          }
+        },
+        {
+          "type": "removed",
+          "content": "PDF comparison is essential for document version control.",
+          "page": 1,
+          "line": 9,
+          "line_in_page": 8,
+          "file": "pdf1",
+          "context": {
+            "before": [
+              "4. Structural modifications",
+              "Introduction:"
+            ],
+            "after": [
+              "It helps identify changes between different versions of files.",
+              "Key Benefits:"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "content": "PDF comparison is essential for document version control and quality assurance.",
+          "page": 1,
+          "line": 10,
+          "line_in_page": 9,
+          "file": "pdf2",
+          "context": {
+            "before": [
+              "5. New section added",
+              "Introduction:"
+            ],
+            "after": [
+              "It helps identify changes between different versions of files.",
+              "Key Benefits:"
+            ]
+          }
+        },
+        {
+          "type": "removed",
+          "content": "- Track document revisions",
+          "page": 1,
+          "line": 12,
+          "line_in_page": 11,
+          "file": "pdf1",
+          "context": {
+            "before": [
+              "It helps identify changes between different versions of files.",
+              "Key Benefits:"
+            ],
+            "after": [
+              "- Ensure accuracy in updates",
+              "- Maintain document integrity"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "content": "- Track document revisions systematically",
+          "page": 1,
+          "line": 13,
+          "line_in_page": 12,
+          "file": "pdf2",
+          "context": {
+            "before": [
+              "It helps identify changes between different versions of files.",
+              "Key Benefits:"
+            ],
+            "after": [
+              "- Ensure accuracy in updates",
+              "- Maintain document integrity"
+            ]
+          }
+        },
+        {
+          "type": "removed",
+          "content": "This document serves as version 1 for comparison testing.",
+          "page": 1,
+          "line": 15,
+          "line_in_page": 14,
+          "file": "pdf1",
+          "context": {
+            "before": [
+              "- Ensure accuracy in updates",
+              "- Maintain document integrity"
+            ],
+            "after": [
+              "Document Version: 1.0 | Created: 2024-12-02"
+            ]
+          }
+        },
+        {
+          "type": "removed",
+          "content": "Document Version: 1.0 | Created: 2024-12-02",
+          "page": 1,
+          "line": 16,
+          "line_in_page": 15,
+          "file": "pdf1",
+          "context": {
+            "before": [
+              "- Maintain document integrity",
+              "This document serves as version 1 for comparison testing."
+            ],
+            "after": []
+          }
+        },
+        {
+          "type": "added",
+          "content": "- Improve collaboration workflow",
+          "page": 1,
+          "line": 16,
+          "line_in_page": 15,
+          "file": "pdf2",
+          "context": {
+            "before": [
+              "- Ensure accuracy in updates",
+              "- Maintain document integrity"
+            ],
+            "after": [
+              "New Features:",
+              "- Enhanced comparison algorithms"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "content": "New Features:",
+          "page": 1,
+          "line": 17,
+          "line_in_page": 16,
+          "file": "pdf2",
+          "context": {
+            "before": [
+              "- Maintain document integrity",
+              "- Improve collaboration workflow"
+            ],
+            "after": [
+              "- Enhanced comparison algorithms",
+              "- Better visualization of differences"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "content": "- Enhanced comparison algorithms",
+          "page": 1,
+          "line": 18,
+          "line_in_page": 17,
+          "file": "pdf2",
+          "context": {
+            "before": [
+              "- Improve collaboration workflow",
+              "New Features:"
+            ],
+            "after": [
+              "- Better visualization of differences",
+              "This document serves as version 2 for comparison testing."
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "content": "- Better visualization of differences",
+          "page": 1,
+          "line": 19,
+          "line_in_page": 18,
+          "file": "pdf2",
+          "context": {
+            "before": [
+              "New Features:",
+              "- Enhanced comparison algorithms"
+            ],
+            "after": [
+              "This document serves as version 2 for comparison testing.",
+              "Document Version: 2.0 | Updated: 2024-12-02 | Status: Revised"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "content": "This document serves as version 2 for comparison testing.",
+          "page": 1,
+          "line": 20,
+          "line_in_page": 19,
+          "file": "pdf2",
+          "context": {
+            "before": [
+              "- Enhanced comparison algorithms",
+              "- Better visualization of differences"
+            ],
+            "after": [
+              "Document Version: 2.0 | Updated: 2024-12-02 | Status: Revised"
+            ]
+          }
+        },
+        {
+          "type": "added",
+          "content": "Document Version: 2.0 | Updated: 2024-12-02 | Status: Revised",
+          "page": 1,
+          "line": 21,
+          "line_in_page": 20,
+          "file": "pdf2",
+          "context": {
+            "before": [
+              "- Better visualization of differences",
+              "This document serves as version 2 for comparison testing."
+            ],
+            "after": []
+          }
+        }
+      ]
+    },
+    "structure_analysis": {
+      "method": "structure_comparison",
+      "page_count": {
+        "pdf1": 1,
+        "pdf2": 1,
+        "identical": true
+      },
+      "tables": [
+        {
+          "page": 1,
+          "tables_pdf1": 0,
+          "tables_pdf2": 0,
+          "identical": true
+        }
+      ],
+      "identical": true
+    },
+    "metadata_comparison": {
+      "method": "metadata_comparison",
+      "file_hash": {
+        "pdf1": "ff5da039c92c63b7ce8440c551a39815",
+        "pdf2": "4dbaba9b157fd775b972d062cba1e325",
+        "identical": false
+      },
+      "metadata": {
+        "keywords": {
+          "pdf1": "",
+          "pdf2": "",
+          "identical": true
+        },
+        "title": {
+          "pdf1": "untitled",
+          "pdf2": "untitled",
+          "identical": true
+        },
+        "format": {
+          "pdf1": "PDF 1.3",
+          "pdf2": "PDF 1.3",
+          "identical": true
+        },
+        "trapped": {
+          "pdf1": "",
+          "pdf2": "",
+          "identical": true
+        },
+        "author": {
+          "pdf1": "anonymous",
+          "pdf2": "anonymous",
+          "identical": true
+        },
+        "subject": {
+          "pdf1": "unspecified",
+          "pdf2": "unspecified",
+          "identical": true
+        },
+        "producer": {
+          "pdf1": "ReportLab PDF Library - www.reportlab.com",
+          "pdf2": "ReportLab PDF Library - www.reportlab.com",
+          "identical": true
+        },
+        "modDate": {
+          "pdf1": "D:20251202175828+08'00'",
+          "pdf2": "D:20251202175828+08'00'",
+          "identical": true
+        },
+        "creationDate": {
+          "pdf1": "D:20251202175828+08'00'",
+          "pdf2": "D:20251202175828+08'00'",
+          "identical": true
+        },
+        "creator": {
+          "pdf1": "ReportLab PDF Library - www.reportlab.com",
+          "pdf2": "ReportLab PDF Library - www.reportlab.com",
+          "identical": true
+        },
+        "encryption": {
+          "pdf1": null,
+          "pdf2": null,
+          "identical": true
+        }
+      },
+      "identical": true
+    }
+  },
+  "summary": {
+    "overall_identical": false,
+    "checks_passed": 2,
+    "checks_total": 3,
+    "has_errors": false
+  }
+}
